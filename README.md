@@ -5,7 +5,8 @@ A helper Color class for the Processing language. I hated all the crap I had to 
 
 Data Members
 -------------------
-```int red;
+```
+int red;
 int green;
 int blue;
 ```
@@ -13,7 +14,8 @@ int blue;
 Constructors
 -----------------
 There are 3 constructors
-```Color();
+```
+Color();
 Color( color c );
 Color( Color C );
 ```
@@ -25,28 +27,33 @@ Color( Color C );
 
 Methods
 -----------
-```boolean equals( Color other );
+```
+boolean equals( Color other );
 boolean equals( color other );
 ```
 Takes either a Color object or Processing color type and returns true or false if the two colors equal.
 
-```void divideByFactor( int factor );
+```
+void divideByFactor( int factor );
 void divideByFactor( float factor );
 ```
 Takes in a factor and divides each component R, G, and B value by that factor.
 
-```void multiplyByFactor( int factor );
+```
+void multiplyByFactor( int factor );
 void multiplyByFactor( float factor );
 ```
 Takes in a factor and muliplies each component R, G, and B value by that factor.
 
-```void addColor( Color other );
+```
+void addColor( Color other );
 void addColor( color other );
 ```
 Adds this Color or color to the other color.
 **WARNING:** the values of R, G, and B are not clamped to 255.
 
-```void subtractColor( Color other );
+```
+void subtractColor( Color other );
 void subtractColor( color other );
 ```
 Subtracts this Color or color from the other color.
