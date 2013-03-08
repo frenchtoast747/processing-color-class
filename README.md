@@ -50,14 +50,14 @@ void addColor( Color other );
 void addColor( color other );
 ```
 Adds this Color or color to the other color.<br />
-**WARNING:** the values of R, G, and B are not clamped to 255.
+**WARNING: the values of R, G, and B are not clamped to 255.**
 
 ```
 void subtractColor( Color other );
 void subtractColor( color other );
 ```
 Subtracts this Color or color from the other color.<br />
-**WARNING:** the values of R, G, and B are not clamped to 0.
+**WARNING: the values of R, G, and B are not clamped to 0.**
 
 ```color getColor();```
 Returns the Processing color representation of Color
