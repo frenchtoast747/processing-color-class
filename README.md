@@ -59,14 +59,22 @@ void subtractColor( color other );
 Subtracts this Color or color from the other color.<br />
 **WARNING: the values of R, G, and B are not clamped to 0.**
 
-```color getColor();```
+```
+color getColor();
+```
 Returns the Processing color representation of Color
 
-```double getColorSquaredDistance( Color other );```
+```
+double getColorSquaredDistance( Color other );
+```
 Returns the squared distance (less calulation intensive) between two Color values. This has nothing to do with the Color's position in the image.
 
-```double getColorDistance( Color other );```
+```
+double getColorDistance( Color other );
+```
 Returns the distance between two Color values. This has nothing to do with the Color's position in the image.
 
-``` String toString();```
+```
+String toString();
+```
 Returns the string representation of the Color. The string is in the format: `( R, G, B )`.
